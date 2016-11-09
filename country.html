@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+ 
+<script src="country_js.js"></script>
+
+
+	<style type="text/css"> 
+
+	</style>
+<link href="CSS country.css" rel="stylesheet" type="text/css"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> Монголия </title>
+</head>
+<body>
+	
+<header> 
+ Монголия 
+</header>
+ 
+
+	
+    
+<div id="buttons"> 
+<button  id="but_info" onclick="show_info()" > Информация</button>
+<button id="but_map" onclick="show_map()">Интерактивная карта</button>
+<button  id="but_test" onclick="show_test()">Викторина</button> 
+<button  id="but_text" onclick="show_test()" style="display:none">Информация</button> 
+<button  id="but_pics" onclick="show_test()" style="display:none">Фотографии</button> 
+ </div>
+<div id="info">
+<img src="1.jpg">
+<h2> Монголия - государство в Центральной Азии. Граничит с Россией на севере и с Китаем на востоке, юге и западе. Выхода к морю не имеет.
+Площадь — 1 564 116 км². Столица — Улан-Батор.
+Государство является участником почти всех структур ООН, а также некоторых структур СНГ в качестве наблюдателя. Официальный язык — монгольский, с письменностью на кириллице.</h2>
+</div>
+ <div id="test1" style="display:none"> 
+<form name="test"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> Какое государственное устройство у Монголии?</b><br/>
+<input type="radio" value="0" name="Q1"/> Парламентская республика <br />
+<input type="radio" value="1" name="Q1"/> Советская республика<br />
+<input type="radio" value="2" name="Q1"/> Народная республика<br />
+<input type="radio" value="3" name="Q1"/> Коммунистический тоталитаризм <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Какой город является столицей Монголии?</b><br/>
+<input type="radio" value="0" name="Q2"/> Эрдэнэт<br />
+<input type="radio" value="1" name="Q2"/> Дархан<br />
+<input type="radio" value="2" name="Q2"/> Улан-Батор<br />
+<input type="radio" value="3" name="Q2"/> Чойбалсан <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> В каком году было основано современное монгольское государство?</b><br/>
+<input type="radio" value="0" name="Q3"/> 1859<br />
+<input type="radio" value="1" name="Q3"/> 1911<br />
+<input type="radio" value="2" name="Q3"/> 1964<br />
+<input type="radio" value="3" name="Q3"/> 1984<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> На каком месте находится Монголия по площади?</b><br/>
+<input type="radio" value="0" name="Q4"/> 18<br />
+<input type="radio" value="1" name="Q4"/> 7<br />
+<input type="radio" value="2" name="Q4"/> 32<br />
+<input type="radio" value="3" name="Q4"/> 26<br />
+<br/></li></ol>      
+<CENTER>
+<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+<INPUT onclick="check_me()" type="button" value="Показать результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT type="reset" value="Сбросить ответы"/> </CENTER>      
+</form> 
+</div>
+ <div id="map" style="display:none">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11259036.130770424!2d97.10867624371676!3d46.45289516279191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3627050669aa6d4b%3A0xe0dd213937e6e096!2z0JzQvtC90LPQvtC70LjRjw!5e0!3m2!1sru!2sru!4v1475347434422" width="1200" height="750" frameborder="0" style="border:0" allowfullscreen></iframe> 
+ </div>
+
+ 
+</body> 
+</html>
